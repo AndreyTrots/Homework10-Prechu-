@@ -1,0 +1,369 @@
+*{
+box-sizing: border-box;
+}
+body {
+	font-family: 'Segoe WP N', sans-serif;
+}
+
+/*HEADER*/
+
+.header-wrapper {
+	width: 100%;
+	height: 90px;
+	margin: auto;
+}
+.header	{
+	width: 960px;
+	height: 90px;
+	margin: auto;
+	position: relative;
+}
+.header-logo {
+	position: absolute;
+	top: 24px;
+	float: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 42px;
+	text-align: center;
+}
+.logo {
+	width: 44px;
+	height: 44px;
+	background: #5094f2;
+	border-radius: 30px;
+	position: relative;
+	color: #ffffff;
+	text-align: center;
+	font-size: 65px;
+	float: left;
+	margin-right: 15px;
+}
+.logo span {
+	display: inline-block;
+	position: absolute;
+	left: 7px;
+	top: 4px;
+	text-align: center;
+}
+.header-nav {
+	float: right;
+	margin-top: 54px;
+}
+.header-nav ul li{
+	display: inline-block;
+	margin-left: 43px;
+	font: 20px 'Segoe WP N', sans-serif;
+}
+.header-nav ul li a {
+	color: #919191;
+	text-decoration: none;
+	padding-bottom: 6px;
+}
+.header-nav ul li.active a,
+.header-nav ul li a:hover{
+	border-bottom: 3px solid #5094f2;
+}
+
+/*SLIDER*/
+
+.galerry{
+	position: relative;
+}
+.galerry:before {
+	content: '';
+	background: url(../images/gallerry-decor.png);
+	width: 100%;
+	height: 12px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 9;
+	border: none;
+}
+.slider {
+	background: url(../images/bg-main.jpg) no-repeat 50%;
+	height: 490px;
+	
+	margin: auto;	
+}
+.slider-inner {
+	margin: auto;
+	width: 844px;
+	height: 416px;
+}
+.apple_logo1 {
+	background: url(../images/iphone1.png);
+	width: 345px;
+	height: 416px;
+	float: left;
+	margin-top: 35px;
+}
+.registration {
+	width: 395px;
+	height: 210px;
+	float: right;
+	color: #ffffff;
+	line-height: 48px;
+	margin-top: 120px;
+}
+.registration em{
+	font: 42px 'Segoe WP', sans-serif;
+}
+.registration p {
+	font: 26px 'Segoe WP', sans-serif;
+}
+.reg-form1 button {
+	border: none;
+	width: 172px;
+	height: 41px;
+	border-radius: 3px;
+	color: #ffffff;
+	background: #5094f2;
+	font: 22px 'Segoe WP', sans-serif;
+	text-align: right;
+	padding-right: 10px;
+	cursor: pointer;
+}
+form {
+  position: relative;
+  width: 172px;
+  margin-bottom: 50px;
+  margin-top: 37px;
+}
+.icon-checked {
+ 	position: absolute;
+ 	z-index: 1;
+ 	top: 11px;
+ 	right: 135px;
+ 	color: #109d8f;
+ 	background: url(../images/sprite.png) no-repeat -26px -51px;
+	width: 23px;
+	height: 23px;
+}
+.checked {
+	width: 23px;
+	height: 23px;
+}
+.gallery {
+	height: 490px;	
+}
+.gallery1 {
+	background: url(../images/bg-main.jpg) no-repeat 50% 0;
+	background-size: cover;
+	height: 490px;
+}
+.gallery2 {
+	background: url(../images/bg2.jpg) no-repeat 50% 0;
+	height: 490px;
+	width: 1250px;
+	background-size: cover;
+}
+.reg-gallery2 {
+	width: 365px;
+	height: 210px;
+	float: right;
+	color: black;
+	line-height: 48px;
+	margin-top: 222px;
+}
+.reg-gallery2 em{
+	font: 42px 'Segoe WP N', sans-serif;
+}
+.reg-form2 button {
+	border: none;
+	width: 172px;
+	height: 41px;
+	border-radius: 3px;
+	color: #ffffff;
+	background: black;
+	font: 22px 'Segoe WP', sans-serif;
+	text-align: right;
+	padding-right: 10px;
+	cursor: pointer;
+}
+.apple_logo2 {
+	background: url(../images/apple_mac2.png);
+	width: 345px;
+	height: 416px;
+	float: left;
+	margin-top: 35px;
+}
+.gallery3 {
+	background: url(../images/bg3.jpg) no-repeat 50% 0;
+	height: 490px;
+	width: 1250px;
+	background-size: cover;
+}
+.apple_logo3 {
+	background: url(../images/apple_mac3.png);
+	width: 345px;
+	height: 416px;
+	float: left;
+	margin-top: 35px;
+}
+.reg-gallery3 {
+  width: 365px;
+	height: 210px;
+	float: right;
+	color: #5D8BAC;
+	line-height: 48px;
+	margin-top: 222px;
+}
+.reg-gallery3 em{
+	font: 42px 'Segoe WP N', sans-serif;
+}
+.reg-form3 button {
+	border: none;
+	width: 172px;
+	height: 41px;
+	border-radius: 3px;
+	color: #ffffff;
+	background: #5D8BAC;
+	font: 22px 'Segoe WP', sans-serif;
+	text-align: right;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+
+/*MAIN*/
+
+.main-wrapper {
+	padding-top: 63px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	align-items: center;
+}
+.icon-main {
+	width: 985px;
+	height: 282px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 92px;
+}
+.icon-blue,
+.icon-red,
+.icon-yellow {
+	width: 257px;
+	height: 275px;
+}
+.icon-blue h3,
+.icon-red h3,
+.icon-yellow h3 {
+	color: #5094f2;
+	font: 20px 'Segoe WP N', sans-serif;
+	text-align: center;
+}
+.icon-blue p,
+.icon-red p,
+.icon-yellow p {
+	color: #909090;
+	font: 14px 'Segoe WP N', sans-serif;
+	text-align: center;
+}
+.blue {
+	width: 186px;
+	height: 186px;
+	background: #5094f2;
+	border-radius: 100px;
+	display: block;
+	margin: auto;
+	position: relative;
+	margin-bottom: 25px;
+}
+.icon-pencil {
+	position: absolute;
+	background: url('../images/sprite.png') no-repeat -85px -21px;
+	width: 78px;
+	height: 107px;
+	left: 57px;
+	top: 39px;
+}
+.red {
+	width: 186px;
+	height: 186px;
+	background: #d94748;
+	border-radius: 100px;
+	display: block;
+	margin: auto;
+	position: relative;
+	margin-bottom: 25px;
+}
+.icon-tv{
+	position: absolute;
+	background: url('../images/sprite.png') no-repeat -185px -29px;
+	width: 95px;
+	height: 81px;
+	left: 45px;
+	top: 51px;
+}
+.yellow {
+	width: 186px;
+	height: 186px;
+	background: #ebbb11;
+	border-radius: 100px;
+	display: block;
+	margin: auto;
+	position: relative;
+	margin-bottom: 25px;
+}
+.icon-basket{
+	position: absolute;
+	background: url('../images/sprite.png') no-repeat -302px -20px;
+	width: 98px;
+	height: 90px;
+	left: 45px;
+	top: 48px;
+}
+.main-content{
+	width: 985px;
+	height: 350px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 71px;
+}
+.shopping-cart {
+	width: 355px;
+	height: 340px;
+}
+.shopping-cart h2{
+	font: 42px 'Segoe WP N', sans-serif;
+	color: #6f7173;
+	padding-bottom: 33px;
+}
+.basket img{
+	width: 355px;
+	height: 260px;
+}
+.main-info {
+	width: 458px;
+	height: 290px;
+	margin-top: 58px;
+}
+.main-info h4 {
+	color: #6f7173;
+	font: 26px 'Segoe WP N', sans-serif;
+	padding-bottom: 35px;
+}
+.main-info p {
+	font: 15px/33px 'Segoe WP', sans-serif;
+}
+
+.footer {
+	width: 100%;
+	height: 93px;
+	border-top: 1px solid #e5e5e5;
+}
+.footer span {
+	display: block;
+	position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font: 15px 'Segoe WP', sans-serif;
+
+}
